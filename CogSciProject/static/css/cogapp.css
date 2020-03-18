@@ -1,0 +1,108 @@
+/* styles for page*/
+
+.container{
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+.title-text{
+  text-align: center;
+}
+
+.error-msg {
+	width: 100%;
+	text-align: center;
+	color: red;
+}
+
+.output-msg {
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.chart {
+	float: left;
+}
+
+.heatmap {
+	float: left;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	display: none;
+}
+
+.axis2 path,
+.axis2 line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+	"text-anchor",
+	"start";
+}
+
+.label {
+	font-size: 12px;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+.axis text {
+	/*font-family: sans-serif;*/
+	font-size: 12px;
+	font-weight:bold;
+}
+
+.legend text{
+    font-size: 11px;
+}
+
+/* styles for tooltip*/
+.d3-tip {
+	line-height: 1.4;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 12px;
+	padding: 12px;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	border-radius: 3px;
+	margin-top: -7px;	
+}
+
+
+/* dialog style tooltip */
+.d3-tip:after {
+	box-sizing: border-box;
+	display: inline;
+	font-size: 10px;
+	width: 100%;
+	line-height: 1;
+	color: rgba(0, 0, 0, 0.7);
+	content: "\25BC";
+	position: absolute;
+	text-align: center;
+}
+
+.d3-tip.n:after {
+	margin: -1px 0 0 0;
+	top: 98%;
+	left: 0;
+}
